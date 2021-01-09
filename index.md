@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<a name = "top"></a>
+## Welcome to my Homepage!
 
-You can use the [editor on GitHub](https://github.com/KevinJiechengWang/kjw005.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Here's a header!
+## Here's a smaller header!
+### And here's an even smaller heading!
+###### And the smallest heading!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**bold text** and *italic text*
 
-### Markdown
+> This is a quote!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+  def foo():
+    print "This is an example of quoting code!"
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[Take this link to the Github website](http://github.com)
+[ or this section link to the top of the page ](href="#top")
+[or this relative link to the same page!](href="index.html")
 
-### Jekyll Themes
+Here's a list of three things!
+1. One
+2. Two
+3. Three
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KevinJiechengWang/kjw005.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+We can also make a task list!
+- [x] This is a complete item
+- [ ] This is an incomplete item
 
-### Support or Contact
+And finally, here's a picture of me:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Facebook profile picture](https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/56252787_537968123394821_4488898937863798784_n.jpg?_nc_cat=111&ccb=2&_nc_sid=09cbfe&_nc_ohc=ENkYxK4LAnUAX_L2aDi&_nc_ht=scontent-lax3-2.xx&oh=e1ccd2642789799ad0b0d54f83ae3dfc&oe=601F2562)
+
+
+
