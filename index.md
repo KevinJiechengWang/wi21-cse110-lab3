@@ -15,9 +15,9 @@
     print "This is an example of quoting code!"
 ```
 
-[Take this link to the Github website](http://github.com)
-<a href="#top">Or this section link to the top of the page</a>
-[or this relative link to the same page!](href="index.md")
+[Take this link to the Github website ](http://github.com)
+<a href="#top">or this section link to the top of the page </a>
+<a href ="index.md">or this relative link to the same page!</a>
 
 Here's a list of three things!
 1. One
