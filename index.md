@@ -16,7 +16,7 @@
 ```
 
 [Take this link to the Github website](http://github.com)
-[ or this section link to the top of the page ](href="#top")
+<a href="#top">Or this section link to the top of the page</a>
 [or this relative link to the same page!](href="index.md")
 
 Here's a list of three things!
