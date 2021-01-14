@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kevin Wang's CSE 110 Page Index</title>
+	<meta name="author" content="Kevin Wang">
+	<meta name="description" content="Lab2">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<nav class="crumbs">
+		<ol>
+			<li class="crumb"><a href="#">Index</a></li>
+		</ol>
+	</nav>
+
+<header>Header</header>
+
+<h1>Welcome to my Github Pages page!</h1>
+<h2>Made for Lab 2 for CSE 110 at UCSD</h2>
+<h3>Made by Kevin Wang</h3>
+
+<section>
+	<div class = "me">
+		<img src = "./It_me.jpg">
+		<p>A picture of me!</p>
+	</div>
+<h2>A Bit About Me</h2>
+<p>
+	Hello! My name is Kevin Wang and I am a <em>third year</em> <b>Computer Engineering</b> Major at <span class="UCSD">UCSD</span>. 
+	<br>Some things I do a lot are sleeping and losing at League of Legends. 
+	<br>You can see just how much I'm losing at my OP.GGs.
+	<br>
+	<ul>
+	<li> <a href="https://na.op.gg/summoner/userName=dankitten">Dankitten</a></li>
+	<li> <a href="https://na.op.gg/summoner/userName=darkitten">Darkitten</a></li>
+	</ul>
+</p>
+<picture>
+	<img src = "./WLR.png">
+	<figcaption>Now that's a <strong>Whole Lotta Red!</strong></figcaption>
+</picture>
+
+<figure>
+	<figcaption>Hello there!</figcaption>
+	<audio
+	controls
+	 src ="./obi-wan-hello-there.mp3">
+	</audio>
+</figure>
+
+<video controls width="250">
+	<source src ="./hello-there.mp4"
+		type="video/mp4">
+</video>
+
+<p>
+	Here's some stuff inside the code tag to make it look like I know anything about coding.
+	<br><code>hackerman.exe</code>
+</p>
+<hr>
+
+<canvas width="50" height = "50">Empty Canvas idk what to put here</canvas>
+
+<svg viewBox="0 0 300 100" stroke="red" fill="grey">
+	<circle cx="5" cy="5" r="4"/>
+</svg>
+
+<aside>
+	Here's an aside. Not really sure what to put here. I'll give it a different font.
+</aside>
+</section>
+
+<form action="" method="get" class="form-example">
+	<div class="form-example">
+		<label for="name">Enter your name: </label>
+		<input type="text" name="name" id="name" required>
+	</div>
+</form>
+<button onclick="SayHello()">Submit</button>
+
+<script>
+	function SayHello(){
+		alert("Hello " + document.getElementById("name").value);
+	}
+</script>
+<br>
+<label for="color-select">Choose your favorite color from Magic the Gathering:</label>
+<select id="color-select">
+	<option value="">Choose a color</option>
+	<option value="red">Red</option>
+	<option value="blue">Blue</option>
+	<option value="green">Green</option>
+	<option value="white">White</option>
+	<option value="black">Black</option>
+</select>
+
+<br>
+<label for="star-wars">How about your favorite Star Wars Movie?</label>
+<input list="star-wars-choice" id="star-wars" name="star-wars"/>
+<datalist id="star-wars-choice">
+	<option value="The Phantom Menace">
+	<option value="Attack of the Clones">
+	<option value="Revenge of the Sith">
+	<option value="A New Hope">
+	<option value="The Empire Strikes Back">
+	<option value="Return of the Jedi">
+</datalist>
+
+<br>
+<label for="select">Choose the best school:</label>
+<select name="schools" id="select">
+	<option value="">Select from the list</option>
+	<option value="UCSD">UCSD</option>
+</select>
+
+<br>
+<label for="textArea">Why don't you tell me a bit about yourself?</label>
+
+<textarea id="textArea" name = "textArea" rows="10" cols ="30">
+	Write something here!
+</textarea>
+
+<br>
+<form>
+	<fieldset>
+		<legend>I'm running out of things to talk about. How about a list of markdown elements?</legend>
+
+		<input type="radio" id="radio" name="radio">
+		<label for="radio">radio</label><br>
+		<input type="checkbox" id="checkbox" name="checkbox">
+		<label for="checkbox">checkbox</label><br>
+		<input type="date" id="date" name="date">
+		<label for="date">What's the date?</label><br>
+		<input type="password" id="password" name="password">
+		<label for="password">Wooo I can't see what's in the field</label><br>
+		<input type="time" id="time" name="time">
+		<label for="time">What time is it?</label><br>
+		<input type="tel" id="tel" name="tel">
+		<label for="tel">What's your telephone number?</label><br>
+		<input type="number" id="number" name="number">
+		<label for="number">What's your SSN?</label><br>
+		<input type="name" id="name" name="name">
+		<label for="name">And your mother's maiden name?</label><br>
+	</fieldset>
+</form>
+
+<table>
+	<thead>
+		<caption>Woah I'm actually kind of busy</caption>
+		<colgroup>
+			<col span = "3" class="CSE">
+			<col span = "1" class="ECE">
+			<col span = "1" class="DEI">
+		</colgroup>
+		<tr>
+			<th colspan="5">My Classes this Quarter</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>CSE 110</td>
+			<td>CSE 140</td>
+			<td>CSE 140L</td>
+			<td>ECE 101</td>
+			<td>ANTH 21</td>
+		</tr>
+	</tbody>
+</table>
+
+<details>
+	<summary>Summary</summary>
+	God Please let me be done with this
+</details>
+<footer>Wow! You made it all the way to the footer.</footer>
+</body>
+
+</html>	 
