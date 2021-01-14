@@ -1,0 +1,34 @@
+body {
+	background-color: #FFF8DC
+}
+
+header {
+	font: bold calc(.025 * (100vw)) 'Times New Roman', sans-serif;
+}
+
+footer {
+	font: bold calc(.025 * (100vw)) 'Times New Roman', sans-serif;
+}
+
+aside {
+	font: italic 1.2em "Fira Sans", serif;
+}
+
+.me img{
+	width:10%;
+	height:10%;
+}
+
+span.UCSD {
+	color: #0000FF;
+}
+
+img{
+	max-width:500px;
+	max-height:300px;
+}
+
+table,
+td{
+	border: 1px solid #000000;
+}
