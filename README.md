@@ -1,3 +1,1 @@
-# kjw005.github.io
-# Kevin Wang's User Page
-# My favorite coding language is Java
+# https://kevinjiechengwang.github.io/wi21-cse110-lab3/
